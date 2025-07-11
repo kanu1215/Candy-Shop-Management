@@ -71,7 +71,7 @@ ul#candyList li {
   font-size: 15px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
 }
 
