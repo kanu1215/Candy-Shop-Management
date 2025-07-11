@@ -61,6 +61,11 @@ ul#candyList {
   margin-top: 30px;
   color: black;
 }
+.button-group {
+  display: flex;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
 
 ul#candyList li {
   background-color: #fff0f6;
