@@ -34,12 +34,13 @@ function displayCandy(candy)
     const li = document.createElement("li");
 li.textContent = `${candy.name}  - #${candy.desc}  - ₹${candy.price} - Qty: ${candy.quantity}`;
 
+
     const buy1Btn = createButton("Buy 1",1,candy,li);
     const buy2Btn = createButton("Buy 2",2,candy,li);
     const buy3Btn = createButton("Buy 3",3,candy,li);
 
     const deleteBtn = document.createElement("button");
-    deleteBtn.textContent = "delete";
+    deleteBtn.textContent = "Delete";
     deleteBtn.onclick = () => deleteCandy(candy._id,li);
 
     li.appendChild(buy1Btn);
