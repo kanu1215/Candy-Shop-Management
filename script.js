@@ -39,7 +39,7 @@ li.textContent = `${candy.name}  - #${candy.desc}  - ₹${candy.price} - Qty: ${
     const buy3Btn = createButton("Buy 3",3,candy,li);
 
     const deleteBtn = document.createElement("button");
-    deleteBtn.textContent = "delete";
+    deleteBtn.textContent = "Delete";
     deleteBtn.onclick = () => deleteCandy(candy._id,li);
 
     li.appendChild(buy1Btn);
